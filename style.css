@@ -1,0 +1,21 @@
+h3 
+{
+    font-size: 30px;
+}
+
+.btn-success:hover
+{
+    background-color: cyan;
+}
+
+canvas
+{
+    animation-name: button;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes button {
+    from {box-shadow: 2px 2px 2px 35px red;}
+    to {box-shadow: 2px 2px 2px 35px black;}
+}
